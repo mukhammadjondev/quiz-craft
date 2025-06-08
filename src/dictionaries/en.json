@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Quiz Craft",
+    "description": "Quiz Craft is an AI-powered platform to create, customize, and share quizzes with ease. Perfect for learning, teaching, and having fun together."
+  },
+  "common": {
+    "welcome": "Welcome",
+    "hello": "Hello",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "services": "Services"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password"
+  },
+  "products": {
+    "cart": "Add to Cart",
+    "buy": "Buy Now",
+    "price": "Price",
+    "items": {
+      "zero": "No items",
+      "one": "{count} item",
+      "other": "{count} items"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Quiz Craft",
+    "description": "Quiz Craft — bu testlar yaratish, tahrirlash va do‘stlaringiz bilan baham ko‘rish uchun AI asosidagi o‘quv platformasi. O‘rganish, o‘qitish va qiziqarli mashg‘ulotlar uchun ideal."
+  },
+  "common": {
+    "welcome": "Xush kelibsiz",
+    "hello": "Salom",
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "success": "Muvaffaqiyatli",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish"
+  },
+  "navigation": {
+    "home": "Bosh sahifa",
+    "about": "Haqida",
+    "contact": "Aloqa",
+    "services": "Xizmatlar"
+  },
+  "auth": {
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "register": "Ro'yxatdan o'tish",
+    "email": "Email",
+    "password": "Parol"
+  },
+  "products": {
+    "cart": "Savatga qo'shish",
+    "buy": "Sotib olish",
+    "price": "Narxi",
+    "items": {
+      "zero": "Mahsulot yo'q",
+      "one": "{count} ta mahsulot",
+      "other": "{count} ta mahsulot"
+    }
+  }
+}
