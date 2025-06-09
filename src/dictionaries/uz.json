@@ -1,38 +1,223 @@
 {
   "metadata": {
     "title": "Quiz Craft",
-    "description": "Quiz Craft — bu testlar yaratish, tahrirlash va do‘stlaringiz bilan baham ko‘rish uchun AI asosidagi o‘quv platformasi. O‘rganish, o‘qitish va qiziqarli mashg‘ulotlar uchun ideal."
-  },
-  "common": {
-    "welcome": "Xush kelibsiz",
-    "hello": "Salom",
-    "loading": "Yuklanmoqda...",
-    "error": "Xatolik yuz berdi",
-    "success": "Muvaffaqiyatli",
-    "save": "Saqlash",
-    "cancel": "Bekor qilish"
+    "description": "Quiz Craft — bu AI yordamida testlar yaratish, sozlash va ulashish imkonini beruvchi platforma. O‘rganish, o‘qitish va birgalikda zavqlanish uchun ajoyib tanlov."
   },
   "navigation": {
-    "home": "Bosh sahifa",
-    "about": "Haqida",
-    "contact": "Aloqa",
-    "services": "Xizmatlar"
+    "features": "Xususiyatlar",
+    "howItWorks": "Qanday ishlaydi",
+    "testimonials": "Fikrlar",
+    "pricing": "Narxlash",
+    "signIn": "Kirish",
+    "getStarted": "Boshlash"
   },
-  "auth": {
-    "login": "Kirish",
-    "logout": "Chiqish",
-    "register": "Ro'yxatdan o'tish",
-    "email": "Email",
-    "password": "Parol"
-  },
-  "products": {
-    "cart": "Savatga qo'shish",
-    "buy": "Sotib olish",
-    "price": "Narxi",
-    "items": {
-      "zero": "Mahsulot yo'q",
-      "one": "{count} ta mahsulot",
-      "other": "{count} ta mahsulot"
+  "hero": {
+    "badge": "AI yordamida o‘qitish inqilobi",
+    "title": {
+      "part1": "O‘rganishni",
+      "interactive": "Interaktiv",
+      "and": "va",
+      "fun": "Qiziqarli qiling"
+    },
+    "subtitle": "AI yordamida qiziqarli testlar yarating, do‘stlaringiz bilan real vaqt rejimida bellashing va istalgan kontentni esda qoladigan interaktiv o‘quv tajribasiga aylantiring.",
+    "buttons": {
+      "startCreatingFree": "Bepul yaratishni boshlang",
+      "watchDemo": "Demoni ko‘rish"
+    },
+    "stats": {
+      "quizzesCreated": {
+        "count": "50K+",
+        "label": "Yaratilgan testlar"
+      },
+      "activeLearners": {
+        "count": "100K+",
+        "label": "Faol o‘quvchilar"
+      },
+      "questionsGenerated": {
+        "count": "2M+",
+        "label": "Yaratilgan savollar"
+      }
     }
+  },
+  "features": {
+    "badge": "Kuchli Imkoniyatlar",
+    "title": {
+      "part1": "Zamonaviy O'qitish Uchun",
+      "highlighted": "Barcha Imkoniyatlar"
+    },
+    "subtitle": "Interaktiv va qiziqarli o'rganishni ta'minlaydigan vositalarni kashf eting",
+    "items": {
+      "0": {
+        "icon": "brain",
+        "title": "AI Yordamida Savol Yaratish",
+        "description": "Matn yoki rasmlarni yuklang va AI avtomatik ravishda qiziqarli test savollarini yaratsin",
+        "color": "blue",
+        "gradient": "from-blue-500 to-blue-600"
+      },
+      "1": {
+        "icon": "users",
+        "title": "Ko'p O'yinchilar Musobaqasi",
+        "description": "Do'stlaringiz bilan real vaqtda test janglarida raqobatlashing va jonli reytinglar ko'ring",
+        "color": "purple",
+        "gradient": "from-purple-500 to-purple-600"
+      },
+      "2": {
+        "icon": "image",
+        "title": "Vizual O'rganish",
+        "description": "Rasmlar va PDF fayllarni yuklang, OCR yordamida matnni ajratib oling",
+        "color": "green",
+        "gradient": "from-green-500 to-green-600"
+      },
+      "3": {
+        "icon": "bookOpen",
+        "title": "Aqlli Kontent Tahlil",
+        "description": "Ilg'or AI kontekstni tushunadi va tegishli, qiyin savollar yaratadi",
+        "color": "orange",
+        "gradient": "from-orange-500 to-orange-600"
+      },
+      "4": {
+        "icon": "clock",
+        "title": "Tezkor Javob",
+        "description": "Batafsil tushuntirishlar va ishlash tahlili bilan darhol natijalar oling",
+        "color": "indigo",
+        "gradient": "from-indigo-500 to-indigo-600"
+      },
+      "5": {
+        "icon": "trophy",
+        "title": "O'yin Tajribasi",
+        "description": "XP to'plang, yutuqlarni oching va o'rganish jarayoningizni kuzatib boring",
+        "color": "yellow",
+        "gradient": "from-yellow-500 to-yellow-600"
+      },
+      "6": {
+        "icon": "barChart",
+        "title": "Taraqqiyot Tahlili",
+        "description": "Batafsil analitika va ishlash ko'rsatkichlari bilan o'rganish sayohatingizni kuzatib boring",
+        "color": "teal",
+        "gradient": "from-teal-500 to-teal-600"
+      },
+      "7": {
+        "icon": "shield",
+        "title": "Xavfsiz Muhit",
+        "description": "Ta'lim mukammalligi uchun mo'ljallangan xavfsiz, nazorat qilinadigan muhitda o'rganing",
+        "color": "red",
+        "gradient": "from-red-500 to-red-600"
+      }
+    },
+    "cta": {
+      "text": "O'rganishning kelajagini his qilishga tayyormisiz?"
+    }
+  },
+  "howItWorks": {
+    "title": {
+      "prefix": "Qanday",
+      "highlight": "Ishlaydi"
+    },
+    "subtitle": "Oddiy va AI-ga asoslangan ish jarayoni bilan bir necha daqiqada boshlang. Kontentdan raqobatgacha atigi to'rtta oson qadam.",
+    "steps": {
+      "0": {
+        "title": "Kontent Yuklash",
+        "description": "Matn, rasm yoki hujjatlarni yuklang. Bizning AI sizning kontentingizni tahlil qilib, asosiy tushunchalarni tushunadi."
+      },
+      "1": {
+        "title": "AI Generatsiyasi",
+        "description": "AI sizning kontentingizni qiziqarli va ta'limiy testlarga turli xil savol turlari bilan aylantirishini kuzating."
+      },
+      "2": {
+        "title": "Baham Ko'rish va Raqobat",
+        "description": "Do'stlaringizni testingizga taklif qiling yoki real vaqtda ko'p o'yinchi rejimida boshqa o'quvchilar bilan raqobatlashing."
+      },
+      "3": {
+        "title": "O'rganish va Rivojlanish",
+        "description": "Ball to'plang, yutuqlarni qo'lga kiriting va yangi mavzular va ko'nikmalarni o'zlashtirishda jarayoningizni kuzatib boring."
+      }
+    }
+  },
+  "testimonials": {
+    "title": {
+      "prefix": "Sevib qolingan",
+      "highlight": "O'qituvchilar va O'quvchilar"
+    },
+    "subtitle": "Bizning o'qituvchilar va o'quvchilar hamjamiyati EduQuiz tajribasi haqida nima deyayotganini ko'ring.",
+    "trust": {
+      "rating": "4.9/5 Reyting",
+      "users": "50K+ Faol Foydalanuvchilar",
+      "reviews": "1000+ Sharhlar"
+    },
+    "people": {
+      "sarah-chen": {
+        "name": "Sara Chen",
+        "role": "O'rta Maktab O'qituvchisi",
+        "content": "EduQuiz mening baholash usullarimni inqilob qildi. AI mening dars materiallarimdan bir necha soniyada mukammal savollar yaratadi!"
+      },
+      "marcus-rodriguez": {
+        "name": "Markus Rodriguez",
+        "role": "Kollej Talabasi",
+        "content": "O'quv guruhim bilan ko'p o'yinchi test janglari o'rganishni juda qiziqarli qiladi. Endi biz haqiqatan ham o'rganishni intiqorlik bilan kutamiz!"
+      },
+      "emily-watson": {
+        "name": "Doktor Emili Uotson",
+        "role": "Universitet Professori",
+        "content": "Analitika talabalarim qayerda qiynalayotganini tushunishga yordam beradi. Bu hech qachon uxlamaydigan o'qituvchi yordamchisiga o'xshaydi."
+      },
+      "james-park": {
+        "name": "Jeyms Park",
+        "role": "Onlayn Repetitor",
+        "content": "Har bir talaba uchun shaxsiy testlar yaratish soatlab vaqt olardi. Endi bu bir necha daqiqa oladi va sifat ajoyib."
+      },
+      "lisa-thompson": {
+        "name": "Liza Tompson",
+        "role": "O'rganish Koordinatori",
+        "content": "Gamifikatsiya xususiyatlari bizning o'quvchilar faolligini 300% ga oshirdi. Odamlar haqiqatan ham ko'proq o'rganish uchun raqobatlashmoqda!"
+      },
+      "alex-kumar": {
+        "name": "Aleks Kumar",
+        "role": "Tibbiyot Talabasi",
+        "content": "Darslik sahifalarimni zudlik bilan testlarga aylantira olish tibbiy maktabga tayyorgarlik uchun o'yin o'zgartiruvchi. Mutlaqo ajoyib!"
+      }
+    }
+  },
+  "cta": {
+    "badge": "10,000+ faol o'quvchi bilan qo'shiling",
+    "title": "O'quv tajribangizni",
+    "subtitle": "O'zgartirishga tayyormisiz?",
+    "description": "AI-quvvatli interaktiv o'quv tizimlarini yaratish uchun EduQuiz-dan foydalanayotgan minglab o'qituvchi va o'quvchilar qatoriga qo'shiling. Bugundan boshlay qiling.",
+    "primaryButton": "Bepul boshlash",
+    "secondaryButton": "Demo ko'rish",
+    "trustText": "Butun dunyo bo'ylab o'qituvchilar tomonidan ishoniladi",
+    "feature1": "Bepul boshlash",
+    "feature2": "Kredit karta talab qilinmaydi",
+    "feature3": "Istalgan vaqtda bekor qilish",
+    "additionalInfo": "Abadiy bepul rejamiz mavjud • 5 daqiqada sozlash"
+  },
+  "footer": {
+    "description": "AI yordamida testlar va interaktiv o‘qitish bilan ta’limni o‘zgartiryapmiz. Dunyodagi minglab o‘qituvchilar va o‘quvchilarga qo‘shiling!",
+    "sections": {
+      "product": "Mahsulot",
+      "company": "Kompaniya",
+      "support": "Yordam"
+    },
+    "links": {
+      "product": {
+        "features": "Xususiyatlar",
+        "howItWorks": "Qanday ishlaydi",
+        "pricing": "Narxlar",
+        "api": "API"
+      },
+      "company": {
+        "aboutUs": "Biz haqimizda",
+        "careers": "Ish o‘rinlari",
+        "blog": "Blog",
+        "press": "Matbuot"
+      },
+      "support": {
+        "helpCenter": "Yordam markazi",
+        "contactUs": "Biz bilan bog‘lanish",
+        "privacyPolicy": "Maxfiylik siyosati",
+        "termsOfService": "Xizmat shartlari"
+      }
+    },
+    "copyright": "© {year} EduQuiz. Barcha huquqlar himoyalangan.",
+    "madeWith": "Global o‘quvchilar uchun ❤️ bilan yaratilgan"
   }
 }

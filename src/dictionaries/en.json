@@ -3,36 +3,221 @@
     "title": "Quiz Craft",
     "description": "Quiz Craft is an AI-powered platform to create, customize, and share quizzes with ease. Perfect for learning, teaching, and having fun together."
   },
-  "common": {
-    "welcome": "Welcome",
-    "hello": "Hello",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "success": "Success",
-    "save": "Save",
-    "cancel": "Cancel"
-  },
   "navigation": {
-    "home": "Home",
-    "about": "About",
-    "contact": "Contact",
-    "services": "Services"
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
   },
-  "auth": {
-    "login": "Login",
-    "logout": "Logout",
-    "register": "Register",
-    "email": "Email",
-    "password": "Password"
-  },
-  "products": {
-    "cart": "Add to Cart",
-    "buy": "Buy Now",
-    "price": "Price",
-    "items": {
-      "zero": "No items",
-      "one": "{count} item",
-      "other": "{count} items"
+  "hero": {
+    "badge": "AI-Powered Learning Revolution",
+    "title": {
+      "part1": "Make Learning",
+      "interactive": "Interactive",
+      "and": "and",
+      "fun": "Fun"
+    },
+    "subtitle": "Create engaging quizzes with AI, compete with friends in real-time, and transform any content into interactive learning experiences that stick.",
+    "buttons": {
+      "startCreatingFree": "Start Creating Free",
+      "watchDemo": "Watch Demo"
+    },
+    "stats": {
+      "quizzesCreated": {
+        "count": "50K+",
+        "label": "Quizzes Created"
+      },
+      "activeLearners": {
+        "count": "100K+",
+        "label": "Active Learners"
+      },
+      "questionsGenerated": {
+        "count": "2M+",
+        "label": "Questions Generated"
+      }
     }
+  },
+  "features": {
+    "badge": "Powerful Features",
+    "title": {
+      "part1": "Everything You Need for",
+      "highlighted": "Modern Learning"
+    },
+    "subtitle": "Discover the tools that make learning interactive and engaging",
+    "items": {
+      "0": {
+        "icon": "brain",
+        "title": "AI-Powered Question Generation",
+        "description": "Upload text or images and let AI create engaging quiz questions automatically",
+        "color": "blue",
+        "gradient": "from-blue-500 to-blue-600"
+      },
+      "1": {
+        "icon": "users",
+        "title": "Multiplayer Competitions",
+        "description": "Challenge friends in real-time quiz battles with live leaderboards",
+        "color": "purple",
+        "gradient": "from-purple-500 to-purple-600"
+      },
+      "2": {
+        "icon": "image",
+        "title": "Visual Learning Support",
+        "description": "Upload images and PDFs with OCR to extract text for quiz creation",
+        "color": "green",
+        "gradient": "from-green-500 to-green-600"
+      },
+      "3": {
+        "icon": "bookOpen",
+        "title": "Smart Content Analysis",
+        "description": "Advanced AI understands context and creates relevant, challenging questions",
+        "color": "orange",
+        "gradient": "from-orange-500 to-orange-600"
+      },
+      "4": {
+        "icon": "clock",
+        "title": "Instant Feedback",
+        "description": "Get immediate results with detailed explanations and performance analytics",
+        "color": "indigo",
+        "gradient": "from-indigo-500 to-indigo-600"
+      },
+      "5": {
+        "icon": "trophy",
+        "title": "Gamified Experience",
+        "description": "Earn XP, unlock achievements, and track your learning progress",
+        "color": "yellow",
+        "gradient": "from-yellow-500 to-yellow-600"
+      },
+      "6": {
+        "icon": "barChart",
+        "title": "Progress Analytics",
+        "description": "Track your learning journey with detailed analytics and performance insights",
+        "color": "teal",
+        "gradient": "from-teal-500 to-teal-600"
+      },
+      "7": {
+        "icon": "shield",
+        "title": "Safe Environment",
+        "description": "Learn in a secure, moderated environment designed for educational excellence",
+        "color": "red",
+        "gradient": "from-red-500 to-red-600"
+      }
+    },
+    "cta": {
+      "text": "Ready to experience the future of learning?"
+    }
+  },
+  "howItWorks": {
+    "title": {
+      "prefix": "How It",
+      "highlight": "Works"
+    },
+    "subtitle": "Get started in minutes with our simple, AI-powered workflow. From content to competition in just four easy steps.",
+    "steps": {
+      "0": {
+        "title": "Upload Content",
+        "description": "Upload text, images, or documents. Our AI will analyze your content and understand the key concepts."
+      },
+      "1": {
+        "title": "AI Generation",
+        "description": "Watch as our AI transforms your content into engaging, educational quizzes with multiple question types."
+      },
+      "2": {
+        "title": "Share & Compete",
+        "description": "Invite friends to join your quiz or compete against other learners in real-time multiplayer sessions."
+      },
+      "3": {
+        "title": "Learn & Grow",
+        "description": "Earn points, unlock achievements, and track your progress as you master new topics and skills."
+      }
+    }
+  },
+  "testimonials": {
+    "title": {
+      "prefix": "Loved by",
+      "highlight": "Educators & Learners"
+    },
+    "subtitle": "See what our community of educators and learners are saying about their EduQuiz experience.",
+    "trust": {
+      "rating": "4.9/5 Rating",
+      "users": "50K+ Active Users",
+      "reviews": "1000+ Reviews"
+    },
+    "people": {
+      "sarah-chen": {
+        "name": "Sarah Chen",
+        "role": "High School Teacher",
+        "content": "EduQuiz has revolutionized how I create assessments. The AI generates perfect questions from my lesson materials in seconds!"
+      },
+      "marcus-rodriguez": {
+        "name": "Marcus Rodriguez",
+        "role": "College Student",
+        "content": "The multiplayer quiz battles with my study group make learning so much more engaging. We actually look forward to studying now!"
+      },
+      "emily-watson": {
+        "name": "Dr. Emily Watson",
+        "role": "University Professor",
+        "content": "The analytics help me understand where my students struggle. It's like having a teaching assistant that never sleeps."
+      },
+      "james-park": {
+        "name": "James Park",
+        "role": "Online Tutor",
+        "content": "Creating personalized quizzes for each student used to take hours. Now it takes minutes, and the quality is outstanding."
+      },
+      "lisa-thompson": {
+        "name": "Lisa Thompson",
+        "role": "Learning Coordinator",
+        "content": "The gamification features have increased our learner engagement by 300%. People are actually competing to learn more!"
+      },
+      "alex-kumar": {
+        "name": "Alex Kumar",
+        "role": "Medical Student",
+        "content": "Being able to turn my textbook pages into quizzes instantly is a game-changer for medical school prep. Absolutely brilliant!"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Join 10,000+ Active Learners",
+    "title": "Ready to Transform",
+    "subtitle": "Your Learning Experience?",
+    "description": "Join thousands of educators and learners who are already using EduQuiz to create engaging, AI-powered learning experiences. Start your journey today.",
+    "primaryButton": "Start Learning for Free",
+    "secondaryButton": "Schedule Demo",
+    "trustText": "Trusted by educators worldwide",
+    "feature1": "Free to start",
+    "feature2": "No credit card required",
+    "feature3": "Cancel anytime",
+    "additionalInfo": "Free forever plan available • Setup in 5 minutes"
+  },
+  "footer": {
+    "description": "Transforming education with AI-powered quizzes and interactive learning experiences. Join thousands of educators and learners worldwide in revolutionizing the way we learn.",
+    "sections": {
+      "product": "Product",
+      "company": "Company",
+      "support": "Support"
+    },
+    "links": {
+      "product": {
+        "features": "Features",
+        "howItWorks": "How it Works",
+        "pricing": "Pricing",
+        "api": "API"
+      },
+      "company": {
+        "aboutUs": "About Us",
+        "careers": "Careers",
+        "blog": "Blog",
+        "press": "Press"
+      },
+      "support": {
+        "helpCenter": "Help Center",
+        "contactUs": "Contact Us",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
+      }
+    },
+    "copyright": "© {year} EduQuiz. All rights reserved.",
+    "madeWith": "Made with ❤️ for global learners"
   }
 }
